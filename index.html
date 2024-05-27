@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribeca Developer</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@400;700&display=swap');
+        
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1b2a38;
+            color: #d4a259;
+            text-align: center;
+            margin: 0;
+        }
+        .container {
+            position: relative;
+            display: inline-block;
+            text-align: center;
+            color: white;
+            width: 100%;
+            max-width: 800px;
+        }
+        .image {
+            width: 100%;
+        }
+        .frame {
+            position: relative;
+        }
+        .artist-impression {
+            position: absolute;
+            bottom: 5px;
+            left: 5px;
+            font-size: 12px;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.5); /* Optional: Adds a semi-transparent background for better readability */
+            padding: 2px 5px;
+        }
+        .centered {
+            position: absolute;
+            bottom: 5%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 80%; /* Adjusted width for the input line */
+        }
+        .input-line {
+            font-family: 'Bodoni Moda', serif;
+            font-size: 20px; /* Adjusted to match the size of text in the image */
+            color: white; /* Font color set to white */
+            border: none;
+            border-bottom: 2px solid #d4a259; /* Golden line */
+            background-color: transparent;
+            padding: 10px;
+            width: 100%;
+            text-align: center; /* Center-aligns the text */
+            box-sizing: border-box; /* Ensures padding doesn't affect width */
+        }
+        @media (max-width: 600px) {
+            .centered {
+                width: 90%; /* Increased width for mobile devices */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="frame">
+            <img src="Trump Towers Delhi NCR proiect is registered under Real Estate (Regulation and Development) Act. 2016 and Harvan Real Estate (Regulation and Development) Rules, 2017 vide registration number 78 of.png" alt="Trump Towers Delhi NCR" class="image">
+            <div class="artist-impression">Artist Impression</div>
+        </div>
+        <div class="centered">
+            <input type="text" placeholder="Type your name and number" class="input-line">
+        </div>
+    </div>
+</body>
+</html>
